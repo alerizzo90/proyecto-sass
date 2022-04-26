@@ -1,0 +1,38 @@
+@import "variables";
+@import "productos";
+
+body {
+    background-color: rgb(255, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*general*/
+header {
+    .indexTitulo{
+                font-size: 25px;
+                font-family: $fuentetitulo;
+                margin-left: 10px;
+                margin-right: 20px;
+                a{
+                    text-decoration: none;
+                    color: $titulo;
+                }
+    }
+    
+    .iconoTienda {
+                width: 70px;
+    }
+    .nav-item:hover {
+                text-decoration-line: underline;
+    }
+}
+.footer { 
+        background: linear-gradient(to bottom right, black, white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        .redesSociales a img{
+            width: 30px;
+        }
+}
