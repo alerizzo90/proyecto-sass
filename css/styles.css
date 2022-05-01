@@ -43,6 +43,116 @@ h3 {
       margin: 2px;
       font-size: 15px; }
 
+/* index */
+.titulo1 {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .titulo1 .miTienda {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+    padding: 10px;
+    animation-name: mianimacion;
+    animation-duration: 10s;
+    animation-delay: 0.5s; }
+
+@keyframes mianimacion {
+  0% {
+    font-size: 10px; }
+  25% {
+    font-size: 20px; }
+  50% {
+    font-size: 50px;
+    background-color: #88d788; }
+  75% {
+    font-size: 20px; }
+  100% {
+    font-size: 10px; } }
+
+.carrusel {
+  display: flex;
+  justify-content: center; }
+  .carrusel #carouselExampleIndicators {
+    width: 800px;
+    height: 500PX;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center; }
+    .carrusel #carouselExampleIndicators .carousel-inner img {
+      max-height: 400px; }
+
+/* page empresa */
+.tituloEmpresa {
+  color: #2e2633;
+  font-weight: 800; }
+
+.imagenEmpresa {
+  height: 400px;
+  border: solid 2px black; }
+
+/* page contacto */
+.contacto {
+  display: flex;
+  justify-content: center; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .formulario .imgContacto {
+    width: 600px; }
+  .formulario #cuestionario {
+    margin: 10px;
+    width: 400px; }
+    .formulario #cuestionario .item {
+      margin-top: 10px; }
+      .formulario #cuestionario .item:last-child {
+        margin-bottom: 10px; }
+      .formulario #cuestionario .item textarea {
+        width: 200px !important;
+        transition: width 0.5s !important; }
+        .formulario #cuestionario .item textarea:focus {
+          width: 400px !important; }
+
+/* page oferta */
+.ofertaTitulo {
+  display: flex;
+  justify-content: center; }
+
+.menuOferta {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly; }
+  .menuOferta a {
+    text-decoration: none;
+    color: #99173c;
+    font-weight: bolder; }
+
+.oferta div {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  background-color: #dce9be;
+  width: 400px;
+  color: white;
+  position: relative; }
+  .oferta div img {
+    width: 250px;
+    padding: 10px; }
+
+.descuento {
+  position: absolute;
+  top: 0;
+  left: 2px;
+  background-color: red;
+  color: yellow;
+  padding: 2px;
+  font-weight: bolder; }
+
 body {
   background-color: #fffbfb;
   font-family: Arial, Helvetica, sans-serif; }
@@ -62,6 +172,10 @@ header .iconoTienda {
 
 header .nav-item:hover {
   text-decoration-line: underline; }
+
+.tituloPage {
+  font-family: "Bangers";
+  color: #88d788; }
 
 .footer {
   background: linear-gradient(to bottom right, black, white);

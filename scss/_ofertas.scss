@@ -1,0 +1,51 @@
+/* page oferta */
+
+.ofertaTitulo {
+    display: flex;
+    justify-content: center;
+}
+
+.menuOferta {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    a {
+        text-decoration: none;
+        color:$colorbordo;
+        font-weight: bolder;
+    
+    }
+}
+
+
+.oferta div{
+    background-color: $fondocard;
+                padding: 10px;
+                margin: 10px;
+                width: 250px;
+                text-align: center;
+                align-items: center;
+                transition: width 0.5s;
+                font-size: 20px;
+                color: white;
+                position: relative;
+                &:hover {
+                        width: 300px;
+                        background-color: gray;
+                }
+    img {
+        width: 150px;
+        padding: 10px;
+    }
+    
+}
+
+.descuento{
+    position: absolute;
+    top: 0;
+    left: 2px;
+    background-color: red;
+    color: yellow;
+    padding: 2px;
+    font-weight: bolder;
+}

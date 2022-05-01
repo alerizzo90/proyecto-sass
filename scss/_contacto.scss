@@ -1,0 +1,38 @@
+
+/* page contacto */
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .imgContacto{
+        width: 600px;
+    }
+    #cuestionario {
+        margin: 10px;
+        width: 400px;
+        .item {
+            margin-top: 10px;
+            &:last-child{
+                margin-bottom: 10px
+            }
+            textarea {
+                width: 200px !important;
+                transition: width 0.5s !important;
+                &:focus {
+                    width: 400px !important;
+                
+                }
+            }
+        }
+    }
+}
+
+
+

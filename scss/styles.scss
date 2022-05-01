@@ -1,5 +1,4 @@
-@import "variables";
-@import "productos";
+@import "variables", "productos","index", "empresa", "contacto", "ofertas";
 
 body {
     background-color: rgb(255, 251, 251);
@@ -24,6 +23,11 @@ header {
     .nav-item:hover {
                 text-decoration-line: underline;
     }
+}
+
+.tituloPage {
+    font-family: $fuentetitulo;
+    color: $titulo;
 }
 .footer { 
         background: linear-gradient(to bottom right, black, white);
