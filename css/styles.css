@@ -123,35 +123,29 @@ h3 {
   display: flex;
   justify-content: center; }
 
-.menuOferta {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly; }
-  .menuOferta a {
-    text-decoration: none;
-    color: #99173c;
-    font-weight: bolder; }
+.menuOferta a {
+  text-decoration: none;
+  color: #99173c;
+  font-weight: bolder; }
 
-.oferta div {
-  font-size: 20px;
-  text-align: center;
-  padding: 10px;
-  background-color: #dce9be;
-  width: 400px;
-  color: white;
+.oferta .card {
   position: relative; }
-  .oferta div img {
-    width: 250px;
-    padding: 10px; }
 
 .descuento {
   position: absolute;
-  top: 0;
+  top: 1px;
   left: 2px;
   background-color: red;
   color: yellow;
   padding: 2px;
   font-weight: bolder; }
+
+.submenu, .menuOferta {
+  background-color: #dce9be;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
 
 body {
   background-color: #fffbfb;

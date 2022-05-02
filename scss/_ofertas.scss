@@ -6,9 +6,8 @@
 }
 
 .menuOferta {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
+    @extend .submenu;
+
     a {
         text-decoration: none;
         color:$colorbordo;
@@ -18,31 +17,14 @@
 }
 
 
-.oferta div{
-    background-color: $fondocard;
-                padding: 10px;
-                margin: 10px;
-                width: 250px;
-                text-align: center;
-                align-items: center;
-                transition: width 0.5s;
-                font-size: 20px;
-                color: white;
-                position: relative;
-                &:hover {
-                        width: 300px;
-                        background-color: gray;
-                }
-    img {
-        width: 150px;
-        padding: 10px;
-    }
-    
+.oferta .card {
+    position: relative;
+
 }
 
 .descuento{
     position: absolute;
-    top: 0;
+    top: 1px;
     left: 2px;
     background-color: red;
     color: yellow;
