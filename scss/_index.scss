@@ -31,8 +31,7 @@
     display: flex;
     justify-content: center;
     #carouselExampleIndicators {
-        width: 800px;
-        height: 500PX;
+        @include size(800px, 500px);
         margin-top: 30px;
         margin-bottom: 100px;
         display: flex;

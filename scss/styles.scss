@@ -1,4 +1,4 @@
-@import "variables", "productos","index", "empresa", "contacto", "ofertas";
+@import "variables","maps", "mixins", "extend","productos","index", "empresa", "contacto", "ofertas";
 
 body {
     background-color: rgb(255, 251, 251);
@@ -40,3 +40,5 @@ header {
             width: 30px;
         }
 }
+
+

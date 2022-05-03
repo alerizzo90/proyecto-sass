@@ -7,8 +7,9 @@
 }
 
 
+
 .imagenEmpresa {
-    height: 400px; 
+    @include size(600px, 400px);
     border: solid 2px black;
 }
 

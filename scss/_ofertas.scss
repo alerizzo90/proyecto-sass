@@ -6,7 +6,7 @@
 }
 
 .menuOferta {
-    @extend .submenu;
+    @extend .subMenu;
 
     a {
         text-decoration: none;
@@ -14,6 +14,12 @@
         font-weight: bolder;
     
     }
+}
+@each $opcion,$color in $subMenu {
+    .#{$opcion}{
+        background-color: $color;   
+    }
+    
 }
 
 
