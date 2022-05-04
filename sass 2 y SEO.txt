@@ -1,0 +1,23 @@
+En los archivos realice las modificaciones para mejorar el  SEO con las siguientes características:
+
+Description
+Mediante la etiqueta meta name description, agregué el siguiente párrafo que explica el contenido de mi sitio:
+En archivo index: "En mitienda.com tenemos la más amplia variedad de productos y descuentos exclusivos. Hacé tu pedido ahora y te lo llevamos a tu casa"
+En archivo Empresa: "Conoce nuestra empresa, nuestra historia"
+En archivo Productos: "los mejores productos de las mejores marcas los encontras en mitienda.com"
+En archivo Oferta: "Encontra las mejores ofertas del día, de la semana y del mes"
+En archivo Contacto: "Escribinos un comentario o alguna pregunta que tengas y te la respoderemos en la brevedad"
+
+Keywords 
+Mediante la etiqueta meta name keywords, agregué las palabras clave: 
+"tienda, online, almacén, productos, ofertas, ecommerce"
+
+Titles
+En archivo index: mi tienda – Inicio
+En archivo Empresa: mi tienda – Empresa
+En archivo Productos: mi tienda – Productos
+En archivo Oferta: mi tienda – Oferta
+En archivo Contacto: mi tienda - Contacto
+
+Encabezado:
+Para todos los encabezados del h1 utilicé el texto “mitienda.com”
